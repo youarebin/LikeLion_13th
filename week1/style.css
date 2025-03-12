@@ -1,0 +1,76 @@
+/*index.html*/
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #c6dbda;
+    padding-left: 20px;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    background-color: #F2F7F7;
+}
+
+aside {
+    width: 200px;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    background-color: #c6dbda;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin: 50px 0;
+    font-size: 17px;
+    font-weight: bold;
+    
+    &:hover {
+        font-size: 20px;
+    }
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+/*greeting.html*/
+.greeting-div {
+    width: 70%;
+}
+
+/*tmi.html*/
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.totoro, .dog {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
